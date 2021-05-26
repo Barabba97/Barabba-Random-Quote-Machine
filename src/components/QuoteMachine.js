@@ -22,7 +22,7 @@ const QuoteMachine = ({ assignNewQuoteIndex, selectedQuote }) => {
                 target="_blank"
                 href={encodeURI(`https://twitter.com/intent/tweet?text=${selectedQuote.quote}&hashtags=Barabba_FDM`)}
             >
-                <FontAwesomeIcon icon={faTwitter} size="md"></FontAwesomeIcon>
+                <FontAwesomeIcon icon={faTwitter}></FontAwesomeIcon>
             </IconButton>
         </CardActions>
     </Card>
