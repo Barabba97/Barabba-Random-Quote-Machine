@@ -8,7 +8,7 @@ import Typography from '@material-ui/core/Typography';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faTwitter } from '@fortawesome/free-brands-svg-icons';
 
-const QuoteMachine = ({ assignNewQuoteIndex, selectedQuote }) => {
+const QuoteMachine = ({ assignNewQuoteIndex, selectedQuote }) => (
     <Card>
         <CardContent>
             <Typography id="text">
@@ -26,6 +26,6 @@ const QuoteMachine = ({ assignNewQuoteIndex, selectedQuote }) => {
             </IconButton>
         </CardActions>
     </Card>
-};
+);
 
 export default QuoteMachine;
